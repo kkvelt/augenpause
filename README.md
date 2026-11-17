@@ -12,5 +12,7 @@
 
 <img width="850" alt="Augenpause 20-second eye break countdown" src="https://github.com/user-attachments/assets/0876f0a2-2185-4b8c-ac87-ca807d08433f" />
 
+Press `Esc` or `mouseclick anywhere on the screen` to end the break immediately. Otherwise, the break will naturally end automatically after 20 seconds.
+
 ### How to Uninstall
 To uninstall, simply delete `%LOCALAPPDATA%\Augenpause\Augenpause.exe` and remove the startup shortcut.
