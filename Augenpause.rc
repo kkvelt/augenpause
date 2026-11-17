@@ -1,0 +1,33 @@
+1 ICON "Augenpause.ico"
+
+#include <windows.h>
+
+1 VERSIONINFO
+ FILEVERSION 2,1,0,0
+ PRODUCTVERSION 2,1,0,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS VOS_NT_WINDOWS32
+ FILETYPE VFT_APP
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704B0"
+        BEGIN
+            VALUE "FileDescription", "Augenpause 20-20-20\0"
+            VALUE "FileVersion", "2.1.0.0\0"
+            VALUE "InternalName", "Augenpause\0"
+            VALUE "OriginalFilename", "Augenpause_Standard.exe\0"
+            VALUE "ProductName", "Augenpause 20-20-20\0"
+            VALUE "ProductVersion", "2.1.0.0\0"
+            VALUE "LegalCopyright", "Copyright (c) 2026\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0407, 1200
+    END
+END
+
+1 24 "Augenpause.manifest"
